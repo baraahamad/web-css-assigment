@@ -1,0 +1,236 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: #f4f4f4;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 30px auto; 
+    padding: 40px; 
+    max-width: 1200px; 
+    text-align: center;
+}
+
+/* Specific Styles for Section Headers */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 30px auto; 
+    padding: 40px; 
+    max-width: 1200px; 
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #f4f4f4;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills {
+    position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #333; 
+}
+
+.skills .avatar {
+    background: url('wp2647032.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.6; 
+}
+
+.skills h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.skills-list span {
+    display: inline-block;
+    background-color: rgba(0, 128, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.skills-list span:hover {
+    background-color: rgba(0, 128, 0, 1);
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Using float instead of flex */
+.project {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 1.5%;
+    background-color: #fffdfd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.project h3 {
+    margin: 15px 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.project-link:hover {
+    background-color: darkgreen;
+}
+
+.project:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact input, 
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: darkgreen;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100; 
+    opacity: 0.7; 
+}
+
+.back-to-top:hover {
+    background-color: darkgreen;
+    opacity: 1;
+}
